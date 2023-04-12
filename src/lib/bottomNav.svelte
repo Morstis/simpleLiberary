@@ -5,14 +5,14 @@
 </script>
 
 <div id="nav">
-	<div>
+	<a href="/search">
 		<Icon src={IoSearchSharp} size="32" className="menuIcon" color="var(--secondaryText)" />
 		<span>Suchen</span>
-	</div>
-	<div>
+	</a>
+	<a href="/library">
 		<Icon src={IoLibrary} size="32" className="menuIcon" color="var(--secondaryText)" />
 		<span>Bibliothek</span>
-	</div>
+	</a>
 </div>
 
 <style lang="scss">
@@ -25,7 +25,8 @@
 		bottom: 0;
 		position: absolute;
 		width: 100%;
-		div {
+		a {
+			text-decoration: none;
 			display: flex;
 			flex-direction: column;
 			span {
