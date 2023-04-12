@@ -12,5 +12,9 @@
 	main {
 		height: 100%;
 		width: 100%;
+		padding: 1em;
+		padding-bottom: 120px;
+		display: flex;
+		flex-direction: column;
 	}
 </style>

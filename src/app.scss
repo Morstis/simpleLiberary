@@ -8,7 +8,20 @@
 	-moz-osx-font-smoothing: grayscale;
 	-webkit-text-size-adjust: 100%;
 }
-
+h1,
+h2,
+h3,
+h4,
+h5 {
+	margin: 0;
+}
+.headline {
+	background-color: var(--main);
+	color: var(--mainText);
+	margin: 0;
+	padding: 10px;
+	border-radius: 10px;
+}
 :root {
 	--background: white;
 	--text: black;
@@ -16,8 +29,10 @@
 	--mainText: white;
 	--secondary: #39afea;
 	--secondaryText: white;
-	--accent: #f4f4fb;
+	--accent: #ebebfc;
 	--accentText: black;
+	--error: red;
+	--errorText: white;
 }
 html,
 body {
