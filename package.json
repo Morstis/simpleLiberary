@@ -12,6 +12,8 @@
 		"format": "prettier --plugin-search-dir . --write ."
 	},
 	"devDependencies": {
+		"@capacitor/cli": "^4.7.3",
+		"@ptkdev/sveltekit-cordova-adapter": "^0.3.1",
 		"@sveltejs/adapter-auto": "^2.0.0",
 		"@sveltejs/kit": "^1.5.0",
 		"prettier": "^2.8.0",
@@ -24,6 +26,9 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@capacitor/android": "^4.7.3",
+		"@capacitor/core": "^4.7.3",
+		"@capacitor/ios": "^4.7.3",
 		"sass": "^1.62.0",
 		"svelte-icons-pack": "^2.1.0"
 	}
